@@ -1,0 +1,42 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../images/img_donate.png');
+    background-attachment: fixed;
+    background-size: cover; 
+    overflow-x: hidden;
+    font-family: consolas;
+}
+a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover
+{
+    color: crimson;
+    background: black;
+    box-shadow: 0 0 10px rgb(88, 224, 9), 0 0 40px rgb(88, 224, 9), 0 0 80px rgb(88, 224, 9);
+    transition-delay: 1s;
+}
+a span
+{
+    position: absolute;
+    display: block;
+}
